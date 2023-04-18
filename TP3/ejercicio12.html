@@ -1,0 +1,31 @@
+<html>
+    <head>Ejercicio 12</head>
+    <body>
+        <form action="procesar_alquiler.php" method="post">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="password">Clave:</label>
+            <input type="password" id="password" name="password" maxlength="12" required>
+          
+            <fieldset>
+              <legend>Selecciona una película:</legend>
+              <label>
+                <input type="checkbox" name="pelicula[]" value="Avengers"> Avengers
+              </label><br>
+              <label>
+                <input type="checkbox" name="pelicula[]" value="Star Wars"> Star Wars
+              </label><br>
+              <label>
+                <input type="checkbox" name="pelicula[]" value="Harry Potter"> Harry Potter
+              </label><br>
+              <label>
+                <input type="checkbox" name="pelicula[]" value="Jurassic Park"> Jurassic Park
+              </label><br>
+            </fieldset>
+          
+            <input type="submit" value="Alquilar película">
+          </form>
+          
+    </body>
+</html>
