@@ -1,0 +1,22 @@
+h1 {
+    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:100px;
+    text-align: center;
+  }
+  h2 {
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px;
+    text-align: center;
+  }
+ .parrafoPar{
+    color:lightseagreen;
+    font-style:oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ .parrafoImpar{
+    color:darkgreen;
+    font-style: italic;
+ }
