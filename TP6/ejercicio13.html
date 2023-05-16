@@ -1,0 +1,66 @@
+<html>
+    <head><title>Formualio Alquiler</title>    
+    </head>
+    <style type="text/css">
+        input[type=text] {
+
+            border: 1px solid #C5C5C5;
+            padding: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            color: #666666;
+          }
+          
+          button[type=reset] {
+            background-color: #FF0000;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            font-family: Arial, sans-serif;
+          }
+          
+          button[type=submit] {
+            background-color: #0de254;
+            color: #edddddcd;
+            border: none;
+            padding: 10px 20px;
+            font-family: Arial, sans-serif;
+          }
+    </style>
+    <body>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="25" required><br><br>
+          
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" maxlength="25" required><br><br>
+          
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion" name="direccion" maxlength="30" required></textarea><br><br>
+          
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" maxlength="15" value="0299" required><br><br>
+          
+            <label for="opcion">Seleccione una opción:</label><br>
+            <input type="radio" id="alquiler" name="opcion" value="alquiler">
+            <label for="alquiler">Alquiler</label><br>
+            <input type="radio" id="compra" name="opcion" value="compra" checked>
+            <label for="compra">Compra</label><br><br>
+          
+            <label for="zona">Seleccione las zonas:</label><br>
+            <input type="checkbox" id="centro" name="zona" value="centro" checked>
+            <label for="centro">Zona Centro</label><br>
+            <input type="checkbox" id="norte" name="zona" value="norte">
+            <label for="norte">Zona Norte</label><br>
+            <input type="checkbox" id="sur" name="zona" value="sur" checked>
+            <label for="sur">Zona Sur</label><br><br>
+          
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario"></textarea><br><br>
+          
+            <button type="reset">Resetear formulario</button>
+            <button type="submit">Enviar datos al servidor</button>
+          </form>
+          
+    </body>
+</html>
